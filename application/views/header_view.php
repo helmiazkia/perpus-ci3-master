@@ -62,7 +62,7 @@
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>P</b>C</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg">PERPUSINFO</span>
+      <span class="logo-lg">HELARY</span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -81,7 +81,7 @@
               Welcome , <i class="fa fa-edit"> </i> <?php echo $d->nama; echo ' | ( '.$d->level.' )'; ?></a>
           </li>
           <li>
-            <a href="<?php echo base_url();?>login/logout">Sign out</a>
+            <a href="<?php echo base_url();?>login/logout">Keluar</a>
           </li>
           <!-- Control Sidebar Toggle Button 
           <li>

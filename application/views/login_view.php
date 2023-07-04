@@ -43,11 +43,11 @@
     </style>
   </head>
 <body class="hold-transition login-page" style="overflow-y: hidden;background:url(
-	'<?php echo base_url('assets_style/image/buku-1.jpg');?>')no-repeat;background-size:100%;">
+	'<?php echo base_url('assets_style/image/image 1.png');?>')no-repeat;background-size:100%;">
 <div class="login-box">
 	<br/>
   <div class="login-logo">
-    <a href="index.php" style="color: White;"><b>SISTEM INFORMASI<br/><b>PERPUSTAKAAN</b></a>
+    <a href="index.php" style="color: White;">SISTEM INFORMASI PERPUSTAKAAN<br/>SMA Negeri 5 Semarang</a>
   </div>
   <div id="tampilalert"></div>
   <!-- /.login-logo -->
@@ -55,11 +55,11 @@
     <p class="login-box-msg" style="font-size:16px;"></p>
     <form action="<?= base_url('login/auth');?>" method="POST">
       <div class="form-group has-feedback">
-        <input type="text" class="form-control" placeholder="Username" id="user" name="user" required="required" autocomplete="off">
+        <input type="text" class="form-control" placeholder="Nama" id="user" name="user" required="required" autocomplete="off">
         <span class="glyphicon glyphicon-user form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
-        <input type="password" class="form-control" placeholder="Password" id="pass" name="pass" required="required" autocomplete="off">
+        <input type="password" class="form-control" placeholder="NIP(Sebagai Password)" id="pass" name="pass" required="required" autocomplete="off">
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
       </div>
       <div class="row">
@@ -73,7 +73,7 @@
           <!-- /.social-auth-links -->
         </div>
         <div class="col-xs-4">
-          <button type="submit" id="loding" class="btn btn-primary btn-block btn-flat">Sign In</button>
+          <button type="submit" id="loding" class="btn btn-primary btn-block btn-flat">Masuk</button>
           <div id="loadingcuy"></div>
         </div>
         <!-- /.col -->
@@ -84,7 +84,7 @@
   <br/>
   <footer>
     <div class="login-box-body text-center bg-blue">
-       <a style="color: White;"> Copyright &copy; Sistem Informasi Perpustakaan <?php echo date("Y");?>
+       <a style="color: White;"> Copyright &copy; Sistem Informasi Perpustakaan HELARY <?php echo date("Y");?>
     </div>
   </footer>
 </div>
